@@ -4,7 +4,7 @@
     "run": "deno run --allow-env=GOD_MODE --allow-write=./solution.txt --allow-net=pokeapi.co pokedle.ts",
     "lint": "deno lint",
     "fmt": "deno fmt",
-    "dev": "deno run --watch --allow-env=GOD_MODE --allow-write=./solution.txt --allow-net=pokeapi.co pokedle.ts"
-    // GOD_MODE=true deno run -A --import-map ./import_map.json pokedle.ts
+    "dev": "deno run --watch --allow-env=GOD_MODE --allow-write=./solution.txt --allow-net=pokeapi.co pokedle.ts",
+    "map": "GOD_MODE=true deno run -A --import-map ./import_map.json pokedle.ts"
   }
 }
